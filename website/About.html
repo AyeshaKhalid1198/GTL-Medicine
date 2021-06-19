@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTLMedicine</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+<body>
+    
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo%201.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-remove" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Getinvolved.html">GET INVOLVED</a></li>
+            <li><a href="Donate.html">DONATE</a></li>
+            <li><a href="Contact%20us.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-reorder" onclick="showMenu()"></i>
+        </nav>
+<h1>About Us</h1>
+        
+    </section>
+ <!----------About Us content-------->
+    <section class="about-us">
+    
+    <div class="row">
+        
+        <div class="about-col"> 
+        <h1>Unused Medicine Donation-GTLMedicine</h1>
+        <p>This unused medicine donation project aims to donate medicines which are not used. The unused medicine can be donated for further utilization by a needy person. This drug donation system helps the user to donate unused medicines to NGO. In this medicine donation system, there are three entities namely, Admin, NGO and Member.NGO can register and login using credentials. They can raise a request of appointment which is furthermore approved and scheduled by admin.Members can register and login using credentials. They can donate medicine by providing medicines details and raising request, further it will be approved by an admin, and they will schedule the donating date.</p>
+        <a href="Donate.html" class="button red-btn">Donate Now</a>
+        </div>
+        
+        
+        <div class="about-col">
+        
+        <img src="images/About.jpg">
+        </div>
+    
+    </section>
+    
+<!----------Footer--------->
+    
+    
+    <section class="Footer">
+    <h4>About Us</h4>
+        <p>This unused medicine donation project aims to donate medicines which are not used.<br>This drug donation system helps the user to donate unused medicines to NGO. </p>
+    <div class="icons">
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-instagram"></i>
+         <i class="fa fa-linkedin"></i>
+       <p>Made with <i class="fa fa-heart-o"></i> By Ayesha Khalid </p> 
+        </div>
+    
+    </section>
+    
+    
+    
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+        
+    </script>
+    
+</body>
+
+</html>
